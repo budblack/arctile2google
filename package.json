@@ -1,0 +1,23 @@
+{
+  "name": "cesium-iondump",
+  "version": "0.1.1",
+  "description": "Cesium Ion 场景下载工具",
+  "main": "build/index.js",
+  "bin": {
+    "iondump": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/fs-extra": "^8.0.0",
+    "@types/node-fetch": "^2.5.2",
+    "cesium-3dtiles": "^0.1.1",
+    "commander": "^3.0.2",
+    "fs-extra": "^8.1.0",
+    "log-symbols": "^3.0.0",
+    "node-fetch": "^2.6.0"
+  }
+}
